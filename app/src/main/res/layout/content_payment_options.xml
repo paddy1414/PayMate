@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aisling.finalprojectaislingstafford.PaymentOptionsActivity"
+    tools:showIn="@layout/activity_payment_options">
+
+
+    <!--PAID WITH CASH BUTTON -->
+    <Button
+        android:id="@+id/paid_with_cash_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:background="#4d004d"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/white"
+        android:text="Paid with Cash"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="46dp"
+        tools:layout_editor_absoluteX="42dp" />
+
+
+    <!--OR LABEL -->
+
+    <TextView
+        android:id="@+id/or_lbl"
+        android:layout_width="35dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:text="OR"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- DATE PICKER BUTTON -->
+
+    <Button
+        android:id="@+id/date_picker_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="117dp"
+        android:layout_height="48dp"
+        android:background="#4d004d"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="210dp"
+        android:textColor="@android:color/white"
+        android:text="Select Exp Date"
+        android:textStyle="bold" />
+
+    <!-- DATE -->
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold|italic"
+        android:textSize="16dp"
+        android:text="0000-00-00"
+        tools:layout_editor_absoluteY="320dp"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/card_no"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:hint="Card No"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+
+
+    <AutoCompleteTextView
+        android:id="@+id/Csv"
+        android:layout_width="119dp"
+        android:layout_height="46dp"
+        android:hint="Csv"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/CardholderName"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+        android:hint="Cardholder Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/payWithCardbutton"
+        style="?android:textAppearanceSmall"
+        android:layout_width="279dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:background="#4d004d"
+        android:text="Pay With Card"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aisling.finalprojectaislingstafford.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <!--  <ImageView
+          android:id="@+id/image1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/imagep1" /> -->
+
+
+    <Button
+        android:id="@+id/outstanding_group_payments_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="350dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="@string/action_outstanding_group_payments"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/group_saving_goals_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="50dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="@string/action_group_saving_goals"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view_previous_bills_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="50dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="@string/action_view_previous_bills"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/view_profile"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="@string/action_view_profile"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/edit_group_detials_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="200dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="@string/action_edit_group_details"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/add_bill_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:background="#4d004d"
+        android:text="@string/action_add_bill"
+
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="560dp"
+        android:background="#4d004d"
+        android:text="@string/action_logout"
+
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c)  2017.  Patrick Norton  All Rights Reserved
+  ~ Email: paddy1414@live.ie
+  ~ Github: https://github.com/paddy1414
+  ~ LinkedIn: www.linkedin.com/in/patricknorton9112
+  ~ Youtube: https://www.youtube.com/channel/UCtYIreGkS7cQa_YwVR-Xqyw
+  ~
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/special_id"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Uniqure Id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="First Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lname"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="UserName"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/username1"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="UserName"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>

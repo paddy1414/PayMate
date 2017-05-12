@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/saving_current"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        tools:text="€Saving_start"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saving_goal"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/saving_goal" />
+
+    <TextView
+        android:id="@+id/saving_goal"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        tools:text="€Saving_Goal"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="154dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_update_goal"
+        android:layout_width="50pt"
+        android:layout_height="wrap_content"
+        android:text="Update Goal"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/saving_title"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:text="Saving_Title"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar_for_save"
+        app:layout_constraintRight_toRightOf="@+id/saving_current"
+        android:layout_marginTop="55dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="49dp"
+        app:layout_constraintLeft_toLeftOf="@+id/saving_current"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_for_save"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="271dp"
+        android:layout_height="220dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="41dp"
+        app:layout_constraintBottom_toBottomOf="@+id/saving_current"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_update_goal"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintLeft_toLeftOf="@+id/saving_title"
+        android:layout_marginLeft="46dp"
+        app:layout_constraintVertical_bias="0.486"
+        tools:layout_editor_absoluteX="46dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aisling.finalprojectaislingstafford.OutStandingPayment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_out_standing_payment" />
+
+
+    <Button
+        android:id="@+id/you_owe_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="80dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="You Owe"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/you_are_owed_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="80dp"
+        android:background="#4d004d"
+        android:textColor="@android:color/white"
+
+        android:text="You are owed"
+        android:textStyle="bold" />
+
+    <TextView
+    android:id="@+id/payee_lbl"
+    android:layout_width="60dp"
+    android:layout_height="38dp"
+        android:layout_marginLeft="10dp"
+    android:layout_marginTop="160dp"
+    android:text="Payee"
+    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+    android:textSize="19sp"
+    android:textColor="#663b77"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-condensed"
+ />
+
+
+    <TextView
+        android:id="@+id/bill_lbl"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp"
+        android:text="Bill"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="19sp"
+        android:textColor="#663b77"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+
+    <TextView
+        android:id="@+id/amount_lbl"
+        android:layout_width="65dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="160dp"
+        android:text="Amount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="19sp"
+        android:textColor="#663b77"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

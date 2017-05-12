@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">PayMate</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="first_name">First Name:</string>
+    <string name="Last_Name">Last Name:</string>
+    <string name="profileImageUrl">Profile Image Url:</string>
+    <string name="prompt_password">Password</string>
+    <string name="password">Password:</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="register_label">New to PayMate? Register now</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="addressline1">Address Line 1:</string>
+    <string name="addressline2">Address Line 2:</string>
+    <string name="town">Town:</string>
+    <string name="County">County:</string>
+    <string name="action_next_Button">Next</string>
+
+
+    <!-- Strings related to register -->
+    <string name="gender_heading">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+
+
+    <!-- Strings related to profile (main) page -->
+    <string name="action_add_bill">Add Bill</string>
+    <string name="action_group_saving_goals">Group saving goals</string>
+    <string name="action_outstanding_group_payments">Outstanding payments</string>
+    <string name="action_view_previous_bills">View Previous Bills</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_edit_group_details">Edit Group Details</string>
+    <string name="action_view_profile">View Profile</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="server_is_down">Server is down!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_abill">AddABill</string>
+    <string name="title_activity_out_standing_payment">OutStandingPayment</string>
+    <string name="title_activity_group_goals">Add Group Goal</string>
+    <string name="title_activity_view_old_bills">ViewOldBills</string>
+
+
+    <string-array name="bill_type_array">
+        <item>Food</item>
+        <item>ESB</item>
+        <item>Wifi</item>
+        <item>Gas</item>
+        <item>Utilities</item>
+    </string-array>
+    <string name="title_activity_savings_goal">Savings Goals</string>
+    <string name="title_activity_payment_options">Payment Options</string>
+    <string name="title_activity_update_group_goal">Update Saving Goal</string>
+</resources>
