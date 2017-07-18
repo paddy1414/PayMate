@@ -1,0 +1,25 @@
+ •	Add a bill
+•	Edit details e.g. group name, remove a user, change profile picture 
+•	View outstanding payments
+•	View saving goals created by the group
+•	View previous bills 
+•	Logout -done
+
+when a user registers, they type in their details, but on the server side, its gonna first run the address insert,
+
+--> if it exists, return a number, if not insert and return a number,
+ then finally its gonna insert the user with the number returned, I just have to figure out how to do it code wise
+
+// project update 01.05.17
+use local storage/session variables for the addBill, figure out BLOBs to view on screen as per thesis pg25 figure11
+sort out JSON parser, in order to pull back list of users that match groupId, as well as other parts (refer to LastOrders) 
+
+CLEAN UP STRUCTURE
+
+//// project update 02.05.17
+create 2 tables, 1 for money owed to me, and the otehr for money i owe to, same structure (baiscally) 
+history 
+
+
+//final entry 
+view the bill history, display various bluhhh #effort tongiht, review tabs for current thought process, fix money owed, going funky :/ 
